@@ -1,0 +1,58 @@
+{
+  "uid" : "e12ba8fbe67e7d1e",
+  "name" : "verify the sign up flow",
+  "fullName" : "SignUp Test Cases.verify the sign up flow",
+  "historyId" : "3f32b009b83b684e59f7f2d49b191204",
+  "time" : {
+    "start" : 1595340072062,
+    "stop" : 1595340109820,
+    "duration" : 37758
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify the sign up flow"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e12ba8fbe67e7d1e.json",
+  "parameterValues" : [ "chrome" ]
+}

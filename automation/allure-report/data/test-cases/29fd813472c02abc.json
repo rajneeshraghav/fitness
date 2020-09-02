@@ -1,0 +1,64 @@
+{
+  "uid" : "29fd813472c02abc",
+  "name" : "Verify the trial validity period",
+  "fullName" : "SignUp Test Cases.Verify the trial validity period",
+  "historyId" : "3e2961c53778111c401c7b3c8e302ed1",
+  "time" : {
+    "start" : 1595340125267,
+    "stop" : 1595340135677,
+    "duration" : 10410
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//span[contains(text(),'Cancel')]\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"//span[contains(text(),'Cancel')]\") still not displayed after 10000ms\n                    at C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:34:15\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at async Element.runCommandWithHooks (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Element.waitForDisplayed (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\webdriverio\\build\\commands\\element\\waitForDisplayed.js:14:15)\n                    at Element.wrapCommandFn (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:54:17)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\webdriverio\\build\\middlewares.js:21:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at ElementUtil.doClick (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\util\\elementUtil.js:5:17)\n                    at MyAccountPage.clickCancel (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\pages\\myAccountPage.js:23:21)\n                    at Context.<anonymous> (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\test\\signUpTC.js:102:23)\n                    at Context.executeSync (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the trial validity period"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "29fd813472c02abc.json",
+  "parameterValues" : [ "chrome" ]
+}

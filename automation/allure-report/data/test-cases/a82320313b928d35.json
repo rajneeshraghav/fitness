@@ -1,0 +1,58 @@
+{
+  "uid" : "a82320313b928d35",
+  "name" : "Verify the positive Login Flow",
+  "fullName" : "Login Test Cases.Verify the positive Login Flow",
+  "historyId" : "de211d46b6265dd8c6ab6700bd5afa10",
+  "time" : {
+    "start" : 1595334120785,
+    "stop" : 1595334121101,
+    "duration" : 316
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "testData is not defined",
+  "statusTrace" : "ReferenceError: testData is not defined\n                    at Context.<anonymous> (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\test\\loginTC.js:39:38)\n                    at Context.executeSync (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the positive Login Flow"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a82320313b928d35.json",
+  "parameterValues" : [ "chrome" ]
+}

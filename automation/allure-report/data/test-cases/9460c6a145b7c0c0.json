@@ -1,0 +1,91 @@
+{
+  "uid" : "9460c6a145b7c0c0",
+  "name" : "Verify the login URL and title",
+  "fullName" : "Login Test Cases.Verify the login URL and title",
+  "historyId" : "2e40740b2e4070b822cead68a781f75b",
+  "time" : {
+    "start" : 1595334249744,
+    "stop" : 1595334255901,
+    "duration" : 6157
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the login URL and title"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4d6438d29720ad27",
+      "status" : "broken",
+      "statusDetails" : "testData is not defined",
+      "time" : {
+        "start" : 1595334115185,
+        "stop" : 1595334120445,
+        "duration" : 5260
+      }
+    }, {
+      "uid" : "13671d369d56f4ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595333877724,
+        "stop" : 1595333883477,
+        "duration" : 5753
+      }
+    }, {
+      "uid" : "34e8c103845c61ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595333413814,
+        "stop" : 1595333419814,
+        "duration" : 6000
+      }
+    }, {
+      "uid" : "a0839dabae82cefd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595331770989,
+        "stop" : 1595331777214,
+        "duration" : 6225
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9460c6a145b7c0c0.json",
+  "parameterValues" : [ "chrome" ]
+}

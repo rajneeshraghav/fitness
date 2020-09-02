@@ -1,0 +1,71 @@
+[ {
+  "uid" : "38f03d8046400fd7",
+  "name" : "Verify the validations on email and password field",
+  "time" : {
+    "start" : 1595334255902,
+    "stop" : 1595334261028,
+    "duration" : 5126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29fd813472c02abc",
+  "name" : "Verify the trial validity period",
+  "time" : {
+    "start" : 1595340125267,
+    "stop" : 1595340135677,
+    "duration" : 10410
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c98f92c39b41472b",
+  "name" : "Verify the sign up URL and title",
+  "time" : {
+    "start" : 1595340066676,
+    "stop" : 1595340072061,
+    "duration" : 5385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "681a81eaec861614",
+  "name" : "Verify the trial message on fresh sign up",
+  "time" : {
+    "start" : 1595340109821,
+    "stop" : 1595340125267,
+    "duration" : 15446
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e12ba8fbe67e7d1e",
+  "name" : "verify the sign up flow",
+  "time" : {
+    "start" : 1595340072062,
+    "stop" : 1595340109820,
+    "duration" : 37758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9460c6a145b7c0c0",
+  "name" : "Verify the login URL and title",
+  "time" : {
+    "start" : 1595334249744,
+    "stop" : 1595334255901,
+    "duration" : 6157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4eb7f802bdfff51",
+  "name" : "Verify the positive Login Flow",
+  "time" : {
+    "start" : 1595334261028,
+    "stop" : 1595334293162,
+    "duration" : 32134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

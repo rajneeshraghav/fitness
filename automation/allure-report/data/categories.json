@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element (\"//div[@class='loginButtonHolder']//div[contains(@class,'MuiAvatar-root')]//*[local-name()='svg']\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "Verify the trial message on fresh sign up",
+        "uid" : "681a81eaec861614",
+        "parentUid" : "e8b5cb1a0e3f96f5137445a8ffb0f1dd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595340109821,
+          "stop" : 1595340125267,
+          "duration" : 15446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "e8b5cb1a0e3f96f5137445a8ffb0f1dd"
+    }, {
+      "name" : "element (\"//span[contains(text(),'Cancel')]\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "Verify the trial validity period",
+        "uid" : "29fd813472c02abc",
+        "parentUid" : "93acba74838f9d85decba5962c8468bc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595340125267,
+          "stop" : 1595340135677,
+          "duration" : 10410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "93acba74838f9d85decba5962c8468bc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

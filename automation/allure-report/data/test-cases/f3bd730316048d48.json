@@ -1,0 +1,58 @@
+{
+  "uid" : "f3bd730316048d48",
+  "name" : "Verify the validations on email and password field",
+  "fullName" : "Login Test Cases.Verify the validations on email and password field",
+  "historyId" : "d7d684552f2a5777e60d777cce2b1556",
+  "time" : {
+    "start" : 1595333883477,
+    "stop" : 1595333892246,
+    "duration" : 8769
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <button class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary Mui-disabled MuiButton-fullWidth Mui-disabled\" tabindex=\"-1\" type=\"submit\" disabled=\"\">...</button> is not clickable at point (674, 550). Other element would receive the click: <div class=\"padding16\">...</div>\n                  (Session info: chrome=83.0.4103.116)",
+  "statusTrace" : "element click intercepted: Element <button class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary Mui-disabled MuiButton-fullWidth Mui-disabled\" tabindex=\"-1\" type=\"submit\" disabled=\"\">...</button> is not clickable at point (674, 550). Other element would receive the click: <div class=\"padding16\">...</div>\n                  (Session info: chrome=83.0.4103.116)\n                    at getErrorFromResponseBody (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\webdriver\\build\\utils.js:121:10)\n                    at WebDriverRequest._request (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\webdriver\\build\\request.js:148:56)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at async Element.runCommandWithHooks (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at ElementUtil.doClick (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\util\\elementUtil.js:6:17)\n                    at LoginPage.doLoginValidations (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\pages\\LoginPage.js:62:21)\n                    at Context.<anonymous> (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\test\\loginTC.js:31:19)\n                    at Context.executeSync (C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\srajput\\NodeJS WS\\wexer\\Wexer-React-App\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the validations on email and password field"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3bd730316048d48.json",
+  "parameterValues" : [ "chrome" ]
+}

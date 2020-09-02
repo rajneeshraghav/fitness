@@ -1,0 +1,256 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Verify the positive Login Flow",
+      "uid" : "6e9710c60a83859f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595333892246,
+        "stop" : 1595333897492,
+        "duration" : 5246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the trial message on fresh sign up",
+      "uid" : "681a81eaec861614",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595340109821,
+        "stop" : 1595340125267,
+        "duration" : 15446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the positive Login Flow",
+      "uid" : "c4eb7f802bdfff51",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595334261028,
+        "stop" : 1595334293162,
+        "duration" : 32134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the login URL and title",
+      "uid" : "34e8c103845c61ad",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595333413814,
+        "stop" : 1595333419814,
+        "duration" : 6000
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the login URL and title",
+      "uid" : "4d6438d29720ad27",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595334115185,
+        "stop" : 1595334120445,
+        "duration" : 5260
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify the sign up flow",
+      "uid" : "e12ba8fbe67e7d1e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595340072062,
+        "stop" : 1595340109820,
+        "duration" : 37758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the trial validity period",
+      "uid" : "29fd813472c02abc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595340125267,
+        "stop" : 1595340135677,
+        "duration" : 10410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the positive Login Flow",
+      "uid" : "a82320313b928d35",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595334120785,
+        "stop" : 1595334121101,
+        "duration" : 316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the validations on email and password field",
+      "uid" : "28b96264ca72d006",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595333419815,
+        "stop" : 1595333425132,
+        "duration" : 5317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the positive Login Flow",
+      "uid" : "bdee7a5344377e02",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595331782752,
+        "stop" : 1595331814873,
+        "duration" : 32121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the login URL and title",
+      "uid" : "a0839dabae82cefd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595331770989,
+        "stop" : 1595331777214,
+        "duration" : 6225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the login URL and title",
+      "uid" : "9460c6a145b7c0c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595334249744,
+        "stop" : 1595334255901,
+        "duration" : 6157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the positive Login Flow",
+      "uid" : "a0e4eb5c981d9dea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595333425132,
+        "stop" : 1595333457040,
+        "duration" : 31908
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the validations on email and password field",
+      "uid" : "47f4f63452f4da3e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595331777215,
+        "stop" : 1595331782752,
+        "duration" : 5537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the sign up URL and title",
+      "uid" : "c98f92c39b41472b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595340066676,
+        "stop" : 1595340072061,
+        "duration" : 5385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the validations on email and password field",
+      "uid" : "38f03d8046400fd7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595334255902,
+        "stop" : 1595334261028,
+        "duration" : 5126
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the login URL and title",
+      "uid" : "13671d369d56f4ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595333877724,
+        "stop" : 1595333883477,
+        "duration" : 5753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the validations on email and password field",
+      "uid" : "f3bd730316048d48",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595333883477,
+        "stop" : 1595333892246,
+        "duration" : 8769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the validations on email and password field",
+      "uid" : "a3c094eb6a7d0849",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595334120446,
+        "stop" : 1595334120784,
+        "duration" : 338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}

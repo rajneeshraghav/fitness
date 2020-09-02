@@ -1,0 +1,56 @@
+{
+  "uid" : "a0839dabae82cefd",
+  "name" : "Verify the login URL and title",
+  "fullName" : "Login Test Cases.Verify the login URL and title",
+  "historyId" : "2e40740b2e4070b822cead68a781f75b",
+  "time" : {
+    "start" : 1595331770989,
+    "stop" : 1595331777214,
+    "duration" : 6225
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the login URL and title"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a0839dabae82cefd.json",
+  "parameterValues" : [ "chrome" ]
+}

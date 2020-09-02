@@ -1,0 +1,137 @@
+{
+  "d7d684552f2a5777e60d777cce2b1556" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38f03d8046400fd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595334255902,
+        "stop" : 1595334261028,
+        "duration" : 5126
+      }
+    } ]
+  },
+  "2e40740b2e4070b822cead68a781f75b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9460c6a145b7c0c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595334249744,
+        "stop" : 1595334255901,
+        "duration" : 6157
+      }
+    } ]
+  },
+  "de211d46b6265dd8c6ab6700bd5afa10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4eb7f802bdfff51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595334261028,
+        "stop" : 1595334293162,
+        "duration" : 32134
+      }
+    } ]
+  },
+  "5c2b6d55baf7ae03ec60ce6844b1c4bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "681a81eaec861614",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[@class='loginButtonHolder']//div[contains(@class,'MuiAvatar-root')]//*[local-name()='svg']\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1595340109821,
+        "stop" : 1595340125267,
+        "duration" : 15446
+      }
+    } ]
+  },
+  "3e2961c53778111c401c7b3c8e302ed1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29fd813472c02abc",
+      "status" : "broken",
+      "statusDetails" : "element (\"//span[contains(text(),'Cancel')]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1595340125267,
+        "stop" : 1595340135677,
+        "duration" : 10410
+      }
+    } ]
+  },
+  "b436bbb5940558590cab4031e05361cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c98f92c39b41472b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595340066676,
+        "stop" : 1595340072061,
+        "duration" : 5385
+      }
+    } ]
+  },
+  "3f32b009b83b684e59f7f2d49b191204" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e12ba8fbe67e7d1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595340072062,
+        "stop" : 1595340109820,
+        "duration" : 37758
+      }
+    } ]
+  }
+}

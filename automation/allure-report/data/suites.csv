@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 21 17:54:15 IST 2020","Tue Jul 21 17:54:21 IST 2020","5126","","Login Test Cases","","Login Test Cases","Verify the validations on email and password field","Verify the validations on email and password field",""
+"broken","Tue Jul 21 19:32:05 IST 2020","Tue Jul 21 19:32:15 IST 2020","10410","","SignUp Test Cases","","SignUp Test Cases","Verify the trial validity period","Verify the trial validity period",""
+"passed","Tue Jul 21 19:31:06 IST 2020","Tue Jul 21 19:31:12 IST 2020","5385","","SignUp Test Cases","","SignUp Test Cases","Verify the sign up URL and title","Verify the sign up URL and title",""
+"broken","Tue Jul 21 19:31:49 IST 2020","Tue Jul 21 19:32:05 IST 2020","15446","","SignUp Test Cases","","SignUp Test Cases","Verify the trial message on fresh sign up","Verify the trial message on fresh sign up",""
+"passed","Tue Jul 21 19:31:12 IST 2020","Tue Jul 21 19:31:49 IST 2020","37758","","SignUp Test Cases","","SignUp Test Cases","verify the sign up flow","verify the sign up flow",""
+"passed","Tue Jul 21 17:54:09 IST 2020","Tue Jul 21 17:54:15 IST 2020","6157","","Login Test Cases","","Login Test Cases","Verify the login URL and title","Verify the login URL and title",""
+"passed","Tue Jul 21 17:54:21 IST 2020","Tue Jul 21 17:54:53 IST 2020","32134","","Login Test Cases","","Login Test Cases","Verify the positive Login Flow","Verify the positive Login Flow",""

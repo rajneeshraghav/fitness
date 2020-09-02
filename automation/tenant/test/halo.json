@@ -1,0 +1,29 @@
+{
+    "loginEmail": "autotest@grr.la",
+    "loginPassword": "Test1234",
+    "invalidEmail": "eric",
+    "invalidPassword": "saak",
+    "nonRegisteredEmail": "srajput@dminc.com",
+    "expectedLoginTitle": "Log In",
+    "expectedLoginSubTitle": "Please enter your details to log in.",
+    "expectedLoginErrorMessage": "Invalid username or password",
+    "expectedSearchTitle": "Class finder",
+    "searchResult": {
+        "zumba": 18,
+        "hiit": 57
+    },
+    "SIGNUP_HEADER": "Sign up",
+    "signUpFirstName": "TestFirst",
+    "signUpLastName": "TestLast",
+    "signUpEmail": "test15594@gmail.com",
+    "signUpPassword": "Test1234",
+    "SIGNUP_SUBHEADER":"To start your free trial, simply fill in your details to get going.",
+    "TRIAL_MESSAGE":"You are currently on a free trial.",
+    "TRIAL_PERIOD": 14,
+    "SUBSCRIPTION_END_DATE_MESSAGE":"Your current subscription will end on ",
+    "filterPageTitle": "Class finder",
+    "filterResults": {
+        "10 mins": 145,
+        "20 mins": 197
+    }
+}

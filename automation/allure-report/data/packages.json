@@ -1,0 +1,104 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Login Test Cases",
+    "children" : [ {
+      "name" : "Verify the login URL and title",
+      "uid" : "9460c6a145b7c0c0",
+      "parentUid" : "2bfac9cbcf3a0ed1bba3a0dda1d956af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595334249744,
+        "stop" : 1595334255901,
+        "duration" : 6157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the validations on email and password field",
+      "uid" : "38f03d8046400fd7",
+      "parentUid" : "2bfac9cbcf3a0ed1bba3a0dda1d956af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595334255902,
+        "stop" : 1595334261028,
+        "duration" : 5126
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the positive Login Flow",
+      "uid" : "c4eb7f802bdfff51",
+      "parentUid" : "2bfac9cbcf3a0ed1bba3a0dda1d956af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595334261028,
+        "stop" : 1595334293162,
+        "duration" : 32134
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2bfac9cbcf3a0ed1bba3a0dda1d956af"
+  }, {
+    "name" : "SignUp Test Cases",
+    "children" : [ {
+      "name" : "Verify the sign up URL and title",
+      "uid" : "c98f92c39b41472b",
+      "parentUid" : "75375b91a346591d4deb283eaee660e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595340066676,
+        "stop" : 1595340072061,
+        "duration" : 5385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify the sign up flow",
+      "uid" : "e12ba8fbe67e7d1e",
+      "parentUid" : "75375b91a346591d4deb283eaee660e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595340072062,
+        "stop" : 1595340109820,
+        "duration" : 37758
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the trial message on fresh sign up",
+      "uid" : "681a81eaec861614",
+      "parentUid" : "75375b91a346591d4deb283eaee660e5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595340109821,
+        "stop" : 1595340125267,
+        "duration" : 15446
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Verify the trial validity period",
+      "uid" : "29fd813472c02abc",
+      "parentUid" : "75375b91a346591d4deb283eaee660e5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595340125267,
+        "stop" : 1595340135677,
+        "duration" : 10410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "75375b91a346591d4deb283eaee660e5"
+  } ]
+}

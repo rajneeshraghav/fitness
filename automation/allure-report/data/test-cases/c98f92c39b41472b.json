@@ -1,0 +1,58 @@
+{
+  "uid" : "c98f92c39b41472b",
+  "name" : "Verify the sign up URL and title",
+  "fullName" : "SignUp Test Cases.Verify the sign up URL and title",
+  "historyId" : "b436bbb5940558590cab4031e05361cb",
+  "time" : {
+    "start" : 1595340066676,
+    "stop" : 1595340072061,
+    "duration" : 5385
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SignUp Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "SignUp Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the sign up URL and title"
+  }, {
+    "name" : "package",
+    "value" : "SignUp Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c98f92c39b41472b.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,23 @@
+{
+    "loginEmail":"eric.maynard@gmail.com",
+    "loginPassword":"saak@123",
+    "invalidEmail":"eric",
+    "invalidPassword":"saak",
+    "nonRegisteredEmail":"srajput@dminc.com",
+    "expectedLoginTitle":"Log In",
+    "expectedLoginSubTitle":"Please enter your details to log in.",
+    "expectedLoginErrorMessage":"Invalid username or password",
+    "expectedSearchTitle":"Class finder",
+    "searchResult":{"zumba":18,"hiit":109},
+    "SIGNUP_HEADER":"Sign up",
+    "signUpFirstName":"TestFirst",
+    "signUpLastName":"TestLast",
+    "signUpEmail":"test236896@gmail.com",
+    "signUpPassword":"Test1234",
+    "SIGNUP_SUBHEADER":"To start your free trial, simply fill in your details to get going.",
+    "TRIAL_MESSAGE":"You are currently on a free trial.",
+    "TRIAL_PERIOD":1,
+    "SUBSCRIPTION_END_DATE_MESSAGE":"Your current subscription will end on ",
+    "filterPageTitle":"Class finder",
+    "filterResults":{"10 mins":303,"20 mins":316}
+  }

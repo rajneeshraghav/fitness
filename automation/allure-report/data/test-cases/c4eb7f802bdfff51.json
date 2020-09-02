@@ -1,0 +1,92 @@
+{
+  "uid" : "c4eb7f802bdfff51",
+  "name" : "Verify the positive Login Flow",
+  "fullName" : "Login Test Cases.Verify the positive Login Flow",
+  "historyId" : "de211d46b6265dd8c6ab6700bd5afa10",
+  "time" : {
+    "start" : 1595334261028,
+    "stop" : 1595334293162,
+    "duration" : 32134
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the positive Login Flow"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a82320313b928d35",
+      "status" : "broken",
+      "statusDetails" : "testData is not defined",
+      "time" : {
+        "start" : 1595334120785,
+        "stop" : 1595334121101,
+        "duration" : 316
+      }
+    }, {
+      "uid" : "6e9710c60a83859f",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary Mui-disabled MuiButton-fullWidth Mui-disabled\" tabindex=\"-1\" type=\"submit\" disabled=\"\">...</button> is not clickable at point (674, 550). Other element would receive the click: <div class=\"padding16\">...</div>\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1595333892246,
+        "stop" : 1595333897492,
+        "duration" : 5246
+      }
+    }, {
+      "uid" : "a0e4eb5c981d9dea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595333425132,
+        "stop" : 1595333457040,
+        "duration" : 31908
+      }
+    }, {
+      "uid" : "bdee7a5344377e02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595331782752,
+        "stop" : 1595331814873,
+        "duration" : 32121
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4eb7f802bdfff51.json",
+  "parameterValues" : [ "chrome" ]
+}

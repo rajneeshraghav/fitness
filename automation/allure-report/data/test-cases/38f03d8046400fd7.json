@@ -1,0 +1,92 @@
+{
+  "uid" : "38f03d8046400fd7",
+  "name" : "Verify the validations on email and password field",
+  "fullName" : "Login Test Cases.Verify the validations on email and password field",
+  "historyId" : "d7d684552f2a5777e60d777cce2b1556",
+  "time" : {
+    "start" : 1595334255902,
+    "stop" : 1595334261028,
+    "duration" : 5126
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the validations on email and password field"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3c094eb6a7d0849",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'invalidEmail' of undefined",
+      "time" : {
+        "start" : 1595334120446,
+        "stop" : 1595334120784,
+        "duration" : 338
+      }
+    }, {
+      "uid" : "f3bd730316048d48",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary Mui-disabled MuiButton-fullWidth Mui-disabled\" tabindex=\"-1\" type=\"submit\" disabled=\"\">...</button> is not clickable at point (674, 550). Other element would receive the click: <div class=\"padding16\">...</div>\n                  (Session info: chrome=83.0.4103.116)",
+      "time" : {
+        "start" : 1595333883477,
+        "stop" : 1595333892246,
+        "duration" : 8769
+      }
+    }, {
+      "uid" : "28b96264ca72d006",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595333419815,
+        "stop" : 1595333425132,
+        "duration" : 5317
+      }
+    }, {
+      "uid" : "47f4f63452f4da3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595331777215,
+        "stop" : 1595331782752,
+        "duration" : 5537
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38f03d8046400fd7.json",
+  "parameterValues" : [ "chrome" ]
+}

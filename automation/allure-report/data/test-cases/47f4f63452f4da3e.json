@@ -1,0 +1,56 @@
+{
+  "uid" : "47f4f63452f4da3e",
+  "name" : "Verify the validations on email and password field",
+  "fullName" : "Login Test Cases.Verify the validations on email and password field",
+  "historyId" : "d7d684552f2a5777e60d777cce2b1556",
+  "time" : {
+    "start" : 1595331777215,
+    "stop" : 1595331782752,
+    "duration" : 5537
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the validations on email and password field"
+  }, {
+    "name" : "package",
+    "value" : "Login Test Cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "47f4f63452f4da3e.json",
+  "parameterValues" : [ "chrome" ]
+}
