@@ -10,6 +10,7 @@ class LoginPage{  //LoginPage Class start
     get errorMessage(){ return $('span.errorMessage')}  //Validation Error Message
     get emailValidationMessage(){ return $('span.MuiTypography-root')} //Email Validation text
 
+  
 
     getPageTitle(){  //function to get title of the login page
         return elementUtil.doGetText(this.loginTitle) //returns text of the title

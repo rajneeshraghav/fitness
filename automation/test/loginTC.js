@@ -1,4 +1,4 @@
-const loginPage = require("../pages/LoginPage");  //import login Page
+const loginPage = require("../pages/loginPage");  //import login Page
 const getTestData = require("../tenant/fetchTenantData");
 let webPlayerInTest;
 let testData; 

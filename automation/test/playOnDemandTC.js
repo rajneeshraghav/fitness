@@ -1,5 +1,5 @@
 const homePage = require('../pages/homePage');  //import home page
-const loginPage = require("../pages/LoginPage");  //import login Page
+const loginPage = require("../pages/loginPage");  //import login Page
 const videoPage = require("../pages/videoPage");  //import video Data 
 const videoCollectionPage = require("../pages/videoCollectionPage");  //import video collection page
 const { assert } = require('chai');  //import chai assertion
@@ -15,7 +15,7 @@ describe("Play on Demand Class Test Cases", function () {  //test suite for play
     it("Check the url of all the videos displayed on home page", function () {  //test case to check all the urls of video on home page
         browser.url('/signin');  //open the sign in page
         browser.maximizeWindow();  //method to maximize the video
-        browser.setTimeout({ 'pageLoad': 10000 })
+        browser.setTimeout({ 'pageLoad': 30000 })
 
         //RR// Change below logic, Tenant info will used from ENVs
         //webPlayerInTest = (((browser.getUrl()).split("-"))[0]).split("//")[1];  //getting the tenant info from the url 
@@ -24,7 +24,7 @@ describe("Play on Demand Class Test Cases", function () {  //test suite for play
         testData = getTestData.getTestData();
 
         loginPage.doLoginValidations(testData.loginEmail, testData.loginPassword);
-        browser.setTimeout({ 'pageLoad': 10000 })
+        browser.setTimeout({ 'pageLoad': 20000 })
         homePage.waitforHomePageToBeDisplayed();  //method to wait for home page to be displayed
         //homePage.waitForVideosToBeDisplayed();  //method to wait for videos to be displayed
         browser.pause(6000);  //method to pause the browser for 5 seconds
@@ -36,10 +36,10 @@ describe("Play on Demand Class Test Cases", function () {  //test suite for play
         let subscriptionRequired = 0;  //initializing count for videos which need subscription
         let numberOfBrokenVideo = 0;  //intializing count for broken videos
         var brokenVideoCodeArray = new Array();  //initializing array to store broken video codes
-        // let demo=0;
+        //let demo=0;
         homePage.videos.forEach(video => {  // for each loop
             if (subscriptionRequired === 0) {  //check for subscription 
-                browser.setTimeout({ 'pageLoad': 10000 })
+                browser.setTimeout({ 'pageLoad': 20000 })
                 homePage.waitForVideosToBeDisplayed();  //wait for videos to be displayed on home page
                 homePage.clickVideo(video);  //method to click on video
                 videoCode.push(browser.getUrl().split('classes/')[1])  //adding the code of the video checked
@@ -76,7 +76,7 @@ describe("Play on Demand Class Test Cases", function () {  //test suite for play
         let subscriptionRequired = 0;  //variable to check if subscription is required
         let numberOfBrokenVideo = 0;  //counter to check number of broken videos
         var brokenVideoCodeArray = new Array();  //array to store the broken video code
-        browser.setTimeout({ 'pageLoad': 10000 })
+        browser.setTimeout({ 'pageLoad': 20000 })
         browser.pause(5000);  //explicit wait to load all the sections of home page
         homePage.viewAll.forEach(view => {  //for each method to perform action on all view all button
             if (subscriptionRequired === 0) {  //condition if subscripton required is false

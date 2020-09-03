@@ -1,4 +1,4 @@
-const loginPage = require("../pages/LoginPage");
+const loginPage = require("../pages/loginPage");
 const homePage = require("../pages/homePage");
 const searchPage = require("../pages/searchPage");
 const { assert } = require("chai");

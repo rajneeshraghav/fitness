@@ -13,6 +13,8 @@ describe("SignUp Test Cases", function () {  //test suite for sign up feature
     it("Verify the sign up URL and title", function () {  //test case to validate the url and title of the sign up page 
         browser.url('/signup');  //method to call sign up url
         browser.maximizeWindow();
+        browser.setTimeout({ 'pageLoad': 30000 })
+
        
         //RR// Change below logic, Tenant info will used from ENVs
         //webPlayerInTest = (((browser.getUrl()).split("-"))[0]).split("//")[1];  //getting the tenant info from the url 
@@ -38,11 +40,12 @@ describe("SignUp Test Cases", function () {  //test suite for sign up feature
         signUpPage.selectTCcheckbox();  //method to check terms and conditions radio button
         signUpPage.clickSignUpButton();  //method to click on sign up button
         browser.pause(5000);  //wait to load home page
+        browser.setTimeout({ 'pageLoad': 20000 })
         assert.isFalse(signUpPage.isSignUpButtonDisplayed(), "User sign up failed");  //assertion to check if sign up page still exists on the tap of sign up button
     })
 
     it("Verify the trial message on fresh sign up", function () {  // test case to verify the trial message on fresh sign up
-        browser.pause(5000);  //wait to load the page
+        browser.setTimeout({ 'pageLoad': 20000 })//wait to load the page
         assert.isTrue(homePage.isHomePageDisplayed(), "Home Page is not dispayed");  //assertion to check if the home page is dispalyed or not
 
         homePage.tapProfile();  //method to tap on the profile icon on home page
